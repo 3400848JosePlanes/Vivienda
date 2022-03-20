@@ -10,25 +10,65 @@
  */
 public class Vivienda 
 {
-    double precio;
-    int numHabitaciones;
-    double superficie;
-    boolean parking;
-    String estado;
-    String propietario;
+    //atributos
+    private double precio;
+    private int numHabitaciones;
+    private double superficie;
+    private boolean parking;
+    private String estado;
+    private String propietario;
     
+    //constructores
     public Vivienda (double precio)
     {
         this.precio = precio;
     }
     
-    public void actualizarPrecio()
-    {
-        precio = precio - precio * 0.05;
+    //getters
+    public double getPrecio(){
+        return precio;
+    }
+    public int getnumHabitaciones(){
+        return numHabitaciones;
+    }
+    public double getSuperficie(){
+        return superficie;
+    }
+    public boolean getParking(){
+        return parking;
+    }
+    public String getEstado(){
+        return estado;
+    }
+    public String getPropietario(){
+        return propietario;
+    }
+    //setters
+    public void setPrecio(double precio){
+        this.precio=precio;
+    }
+    public void setNumHabitaciones(int habitaciones){
+        this.numHabitaciones=habitaciones;
+    }
+    public void setSuperficie(double superficie){
+        this.superficie=superficie;
+    }
+    public void setParking(boolean parking){
+        this.parking=parking;
+    }
+    public void setEstado(String estado){
+        this.estado=estado;
+    }
+    public void setPropietario(String propietario){
+        this.propietario=propietario;
     }
     
     
-        
+    //metodos
+    public void actualizarPrecio()
+    {
+        precio = precio - precio * 0.05;
+    }   
     public void imprimirVivienda(Vivienda a){
         
         System.out.println("Precio: " + this.precio);
