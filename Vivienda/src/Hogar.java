@@ -28,7 +28,7 @@ public class Hogar {
         String propietario;
         
         
-        casa.imprimirVivienda(casa);
+        System.out.println(casa.getnumHabitaciones());
         
     }
     
