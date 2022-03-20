@@ -70,9 +70,9 @@ public class Vivienda
     
     
     //metodos
-    public void actualizarPrecio()
+    public void actualizarPrecio(int descuento)
     {
-        precio = precio - precio * 0.05;
+        precio = precio - descuento;
     }   
     public void imprimirVivienda(Vivienda a){
         

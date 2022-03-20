@@ -18,7 +18,7 @@ public class Hogar {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        Vivienda casa = new Vivienda(120000);
+        Vivienda casa = new Vivienda(120000, 4, 100, true, "buen estado", "Adrian Gimenez");
         
         double precio;
         int numHabitaciones;
