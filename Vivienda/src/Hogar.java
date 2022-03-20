@@ -23,7 +23,7 @@ public class Hogar {
         String estado;
         String propietario;
         
-        System.out.println("Precio : " + casa.precio);
+        System.out.println("Precio: " + casa.precio);
         System.out.println("Número de habitaciones: "+ casa.numHabitaciones);
         System.out.println("Superficie en m2: " + casa.superficie);
         System.out.println("¿Dispone de parking?: " + casa.parking);
