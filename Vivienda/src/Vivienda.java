@@ -19,9 +19,14 @@ public class Vivienda
     private String propietario;
     
     //constructores
-    public Vivienda (double precio)
+    public Vivienda (double precio, int numHabitaciones, double superficie, boolean parking, String estado, String propietario)
     {
         this.precio = precio;
+        this.numHabitaciones=numHabitaciones;
+        this.superficie=superficie;
+        this.parking=parking;
+        this.estado=estado;
+        this.propietario=propietario;
     }
     
     //getters
